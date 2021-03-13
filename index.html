@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./stylenew.css">
+    <link rel="stylesheet" type="text/css" href="lightslider.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"/> -->
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+  </head>
+  <body>
+
+    <!-- header section -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero"><h1><span>A</span>bhinav <span>K</span>umar</h1></a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <!-- <li><a href="#services" data-after="Service">Services</a></li> -->
+              <li><a href="#about" data-after="About">About</a></li>
+              <!-- <li><a href="#resume" data-after="Resume">Resume</a></li> -->
+              <li><a href="#portfolio" data-after="Profile">Profile</a></li>
+              <li><a href="#certificate" data-after="Contact">Certificate</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- hero -->
+    <section id = 'hero'>
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Self <span></span></h1>
+          <h1>Abhinav Kumar <span></span></h1>
+          <a href="#portfolio" type="button" class="cta">Portfolio</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of hero -->
+
+
+    <!-- about -->
+     <section id = "about">
+      <div class="about container">
+        <div class="title">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Aspiring Data Scientist, particularly enthusiastic about the interface between data and automation.</h2>
+          <p>I am a Mechanical Engineer, with 4 years of experience in Oil and Gas energy sector as a Stress Analyst.
+            I am passionate about data science. I learned to program with <a href="#certificate">online and offline courses</a> , StackOverflow and Trial-and-Error.
+            I learn something new through every project, which include data analysis, visualization, and implementing machine learning pipelines.
+          </p>
+        </div>
+        <div class="contain-detail">
+          <div class="col-left">
+            <div class="about-img">
+              <img src="./img/img-2.jpg" alt="img">
+            </div>
+          </div>
+          <div class="col-right">
+            <ul class="flex-container">
+              <li class="flex-item">
+                <!-- <i class="fas fa-angle-right"></i> -->
+                <strong>Phone:</strong>
+                +91 7982585375
+              </li>
+              <li class="flex-item">
+                <!-- <i class="fas fa-angle-right"></i> -->
+                <strong>City:</strong>
+                New Delhi
+              </li>
+              <li class="flex-item">
+                <!-- <i class="fas fa-angle-right"></i> -->
+                <strong>Age:</strong>
+                26
+              </li>
+              <li class="flex-item">
+                <!-- <i class="fas fa-angle-right"></i> -->
+                <strong>Degree:</strong>
+                Bachelor of Technology
+              </li>
+              <li class="flex-item">
+                <div class="social-media">
+                  <p>
+
+                    <a href="https://github.com/Abhinavk910" target="_blank">
+                      <span class="fa fa-github"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/Abhinavk910/" target="_blank">
+                      <span class="fa fa-linkedin">
+                      </span>
+                    </a>
+                    <a href="https://www.kaggle.com/abhinavkum" target="_blank">
+                      <span> <strong>K</strong>
+                      </span>
+                    </a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="cta">Download Resume</a>
+          </div>
+      </div>
+     </section>
+    <!-- end of about -->
+
+    <!-- portfolio -->
+    <section id = "portfolio">
+      <div class="portfolio container">
+        <div class="title">
+          <h1 class="section-title"><span>My</span> portfolio </h1>
+        </div>
+        <div class="btn-group" id = 'btn-group'>
+          <div class="btn1">
+            <a href="#" data-filter="all" class="filter-btn active cta">show all</a>
+          </div>
+          <div class="btn1">
+            <a href="#" data-filter="dashboard" class="filter-btn cta"> Dashboard</a>
+          </div>
+          <div class="btn1">
+            <a href="#" data-filter="data_analysis" class="filter-btn cta"> Data Analysis</a>
+          </div>
+          <div class="btn1">
+            <a href="#" data-filter="deep_learning" class="filter-btn cta"> Deep Learning</a>
+          </div>
+        </div>
+        <div id="gallery-items" class="gallery-items">
+          <div class="gallery-item dashboard" data-item="dashboard">
+            <img src="./img/vavv.JPG" class="card-img-top gallery-img" alt="">
+            <div class="info">
+              <h1>Vira Aqua Vira Vita(NGO)</h1>
+              <p>Water Crisis in Piura Region of Peru and NGO's project Impact and Success. Project From <a href="https://www.vizforsocialgood.com/join-a-project/vera-aqua-vera-vita" target="_blank">
+              Viz for social good.</a></p>
+              <a href="https://abhinavk.herokuapp.com/apps/vavv" target="_blank" class="cta"> View </a>
+            </div>
+          </div>
+          <div class="gallery-item dashboard" data-item="dashboard">
+            <img src="./img/PGC_9130.jpg" class="card-img-top gallery-img" alt="">
+            <div class="info">
+              <h1>Fondation Follereau Luxembourg(NGO) Dashboard</h1>
+              <p>Created NGO awareness Dashboard project form<a href="https://www.vizforsocialgood.com/join-a-project/fondation-follereau-luxembourg" target="_blank">
+              Viz for social good.</a></p>
+              <a href="https://abhinavk.herokuapp.com/apps/ffl_dashboard" target="_blank" class="cta"> View </a>
+            </div>
+          </div>
+
+          <div class="gallery-item dashboard" data-item="dashboard">
+            <img src="./img/refinery2.jpg" class="card-img-top gallery-img" alt="">
+            <div class="info">
+              <h1>Indian Refinery Capacity Dashboard</h1>
+              <p>Self Colledted data from <a  href="http://mopng.gov.in/en/documents/annual-reports" target="_blank">India Annual P&NG Report.</a></p>
+              <a href="https://abhinavk.herokuapp.com/apps/indian_refinery" target="_blank" class="cta"> view </a>
+            </div>
+          </div>
+          <div class="gallery-item data_analysis" data-item="data_analysis">
+            <img src="./img/whatsapp.jpg" class="card-img-top gallery-img" alt="">
+            <div class="info">
+              <h1>WhatsApp Chat Analysis</h1>
+              <p>Upload Your chat Data and analyse it!</p>
+              <a href="https://abhinavk.herokuapp.com/apps/whatsapp_chat_analysis"  target="_blank" class="cta"> view </a>
+            </div>
+          </div>
+          <div class="gallery-item deep_learning" data-item="deep_learning">
+            <img src="./img/sudoku.jpg" class="card-img-top gallery-img" alt="">
+            <div class="info">
+              <h1>Sudoku Automatic Solver</h1>
+              <p>Used Opencv for finding grid and number and tensorflow for number recognition.</p>
+              <a href="https://github.com/Abhinavk910/OpenCV/tree/master/project_sudoku_solver" class="cta" target = "_blank"> Github </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end of portfolio -->
+
+
+    <!-- certificate -->
+    <section id = 'certificate'>
+      <div class="certificate">
+        <div><h1 class="section-title">Certificate</h1></div>
+          <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+          		<div class="certificate-item">
+            		<img src="img/udacity.png" class="model">
+            		<div class="info">
+                  <h1>Python Foundation Nanodegree</h1>
+              		<p>Learned python programming fundamentals such as data types and structures, variables, loops, functions and web scraping. </p>
+                  <a href="https://confirm.udacity.com/HKAREXDF" target="_blank" class="cta">View</a>
+                </div>
+          		</div>
+          		</li>
+            <li class="item-a">
+              <div class="certificate-item">
+            		<img src="img/cnn.png" class="model">
+            		<div class="info">
+                  <h1>Convolutional Neural Networks</h1>
+              		<p>Build convolutional neural networks and apply it to image data. Used neural style transfer to generate art</p>
+                  <a href="https://coursera.org/share/e628e576d8bcea68d3a55de1c83958ab" target="_blank" class="cta">View</a>
+                </div>
+          		</div>
+          		</li>
+
+          		<!--3------------------------------>
+
+              <li class="item-a">
+                <div class="certificate-item">
+                  <img src="img/nnbasic.png" class="model">
+              		<div class="info">
+                    <h1>Neural Networks and Deep Learning</h1>
+                		<p>Build, train and apply fully connected deep neural networks. Understand the key parameters in a neural network's architecture</p>
+                    <a href="https://coursera.org/share/3a426123443732fcbd5d02397bb8bcc2" target="_blank" class="cta">View</a>
+                  </div>
+            		</div>
+            		</li>
+
+          		<!--4------------------------------>
+              <li class="item-a">
+                <div class="certificate-item">
+              		<img src="img/pandas.png" class="model">
+              		<div class="info">
+                    <h1>Data analysis with Pandas</h1>
+                		<p>Performed multitude of data operation in pandas including grouping, pivoting and
+                      joining.</p>
+                    <a href="https://www.udemy.com/certificate/UC-Z388DKO4/" target="_blank" class="cta">View</a>
+                  </div>
+            		</div>
+            		</li>
+          		<!--5------------------------------>
+              <li class="item-a">
+                <div class="certificate-item">
+              		<img src="img/machinelearning.png" class="model">
+              		<div class="info">
+                    <h1>Machine Learning</h1>
+                		<p>Completed all Machine Learning Model and additional tool for Model Tuning.</p>
+                    <a href="https://www.udemy.com/certificate/UC-LKVQ99E6/" target="_blank" class="cta">View</a>
+                  </div>
+            		</div>
+            	</li>
+          		<!--6------------------------------>
+            <li class="item-a">
+              <div class="certificate-item">
+            		<img src="img/tablue.jpg" class="model">
+            		<div class="info">
+                  <h1>Tablue</h1>
+              		<p>Learnt features in Tableau for exploring, doing experiment with, fix, prepare, and present data easily, quickly, and beautifully.</p>
+                  <a href="https://www.udemy.com/certificate/UC-6GYMDGAB/" target="_blank" class="cta">View</a>
+                </div>
+          		</div>
+          	</li>
+    		</ul>
+      </div>
+    </section>
+    <!-- certificate -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+91 7982585375</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>abhinavk910@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>New Delhi, India</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand"><h1><span>A</span>bhinav <span>K</span>umar</h1></div>
+        <h2> aspiring data scientist</h2>
+        <p>Copyright © 2021 Abhinav. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+    <script src="./app.js"></script>
+    <script src="./js/script.js" type="text/javascript"></script>
+  </body>
+
+</html>
